@@ -1,5 +1,6 @@
 coins = 0
 health = 10
+attack = 5
 
 def playerName():
     name = input("Please enter your name: ")
@@ -37,4 +38,14 @@ def updateHealth():
 def coinsHealth():
     global coins
     coins = int(coins) - 20
+    return coins
+
+def updateAttack():
+    global attack
+    attack = attack + 1
+    return attack
+
+def coinsAttack():
+    global coins
+    coins = int(coins) - 15
     return coins
