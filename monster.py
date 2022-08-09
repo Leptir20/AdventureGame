@@ -13,20 +13,20 @@ def monsterName():
 
 def monsterHealth():
     if randomChoice == 1:
-        monsterHealth = 10
+        monsterHealth = random.randint(10, 15)
     if randomChoice == 2:
-        monsterHealth = 10
+        monsterHealth = random.randint(5, 10)
     if randomChoice == 3:
-        monsterHealth = 10
+        monsterHealth = random.randint(10, 20)
     return monsterHealth
 
 def monsterAttack():
     if randomChoice == 1:
-        monsterAttack = 2
+        monsterAttack = random.randint(1, 2)
     if randomChoice == 2:
-        monsterAttack = 2
+        monsterAttack = random.randint(1, 3)
     if randomChoice == 3:
-        monsterAttack = 2
+        monsterAttack = random.randint(3, 5)
     return monsterAttack
 
 def monsterNumber():
